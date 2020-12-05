@@ -1,4 +1,5 @@
 import sys
+from testpy import testme
 
 """  
 Something to do with universe and Python
@@ -13,3 +14,5 @@ def UniverseMe(name, planet):
     return pl
 
 print (UniverseMe(name, "Saturn"))
+print ()
+testme()
