@@ -1,5 +1,5 @@
 import sys
-from testpy import testme
+from testpy import testme, hellome
 
 """  
 Something to do with universe and Python
@@ -10,6 +10,7 @@ Add more details.
 """
 
 name = sys.argv[1]
+me = "Functional"
 
 def UniverseMe(name, planet):
     pl = "Hi " + planet + " its me " + name + " saying hello from earth!"
@@ -18,3 +19,4 @@ def UniverseMe(name, planet):
 print (UniverseMe(name, "Saturn"))
 print ()
 testme()
+hellome(me)
